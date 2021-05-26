@@ -18,7 +18,7 @@ MFA突破後に実施可能な操作
 ※※カスタマイズする場合は、Condition句の条件に要注意。組み合わせを誤ると、MFAチェックが有効に働かなくなってしまう。
 参考: [aws:MultiFactorAuthPresent](https://docs.aws.amazon.com/ja_jp/IAM/latest/UserGuide/reference_policies_condition-keys.html#condition-keys-multifactorauthpresent)
 
-## アクセスキー管理権限コントロールポリシー(*-access-key-*.json)
+## アクセスキー管理権限コントロールポリシー(\*-access-key-\*.json)
 アクセスキーの発行、削除、アクティブ/非アクティブ化の管理権限をコントロールする。
 3種類のポリシーのいずれかを必ずアタッチする想定。
 
