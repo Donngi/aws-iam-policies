@@ -22,7 +22,7 @@ MFA突破後に実施可能な操作
 アクセスキーの発行、削除、アクティブ/非アクティブ化の管理権限をコントロールする。
 3種類のポリシーのいずれかを必ずアタッチする想定。
 
-### 1️⃣ allow-create-access-key.json
+### 1️⃣ allow-manage-access-key.json
 全操作を許可。
 
 ### 2️⃣ deny-manage-access-key-except-existing-key.json
